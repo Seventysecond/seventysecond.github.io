@@ -441,7 +441,7 @@ p {
 }
 
 a {
-  color: #2879d0;
+  color: #ffffff;
 }
 a:hover {
   color: #2268b2;
@@ -531,6 +531,12 @@ a.button small {
   font-size: 11px;
 }
 header a.button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+}
+header a.linkedin {
   position: absolute;
   top: 0;
   right: 0;
@@ -825,26 +831,8 @@ footer a:hover {
   header h2 {
     font-size: 24px;
   }
-  header a.button {
-    position: relative;
-    display: inline-block;
-    width: auto;
-    height: auto;
-    padding: 5px 10px;
-    margin-top: 15px;
-    font-size: 13px;
-    line-height: 1;
-    color: #2879d0;
-    text-align: center;
-    background-color: #9ddcff;
-    background-image: none;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-  }
-  header a.button small {
-    display: inline;
-    font-size: 13px;
+  header a{
+    color: #ffffff;
   }
   #main-content,
   aside#sidebar {
